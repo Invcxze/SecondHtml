@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.container {
+    width: 1180px;
+    height: 88px;
+    margin: 0 auto;
+}
+/* Header */
+header {
+    height: 88px;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    padding-top: 5px;
+}
+.header-list {
+    display: flex;
+    justify-content: space-between;
+}
+.header-title {
+    position: relative;
+    top: -6px;
+    font-family: Dela Gothic One;
+    font-size: 20.86px;
+    padding-right: 30px;
+    font-weight: 200;
+}
+.header-list-item {
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #757575;
+    padding-right: 30px;
+}
+.header-list-item-home {
+    color: #000000;
+    padding-left: 30px;
+    font-weight: 900;
+}
+.header-list-item-games {
+    padding-right: 3.76px;
+}
+.header-vertical-line {
+    height: 20px;
+    color: #E0E0E0;
+}
+.header-block1 {
+    display: flex;
+    width: 570px;
+}
+.header-block2 {
+    display: flex;
+    align-items: center;
+}
+.header-username {
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #757575;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.header-signin {
+    font-family: Montserrat;
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+}
+.header-hr-bottom {
+    color: #757575;
+}
+/* Main */
+.main {
+    height: 740px;
+    /*background: url(../img/Frame\ 24.png) no-repeat;*/
+    background-position-x: 900px;
+    background-position-y: 110px;
+    background-color: #F6F5F4;
+}
+.main-content {
+    display: flex;
+    align-items: center;
+}
+.main-content-text {
+    width: 540px;
+}
+.main-h2 {
+    font-family: Montserrat;
+    color: #2B788B;
+    font-size: 16px;
+    font-weight: 900;
+    padding-bottom: 24px;
+    padding-top: 151.5px
+}
+.main-h1 {
+    font-family: Dela Gothic One;
+    color: black;
+    font-size: 56px;
+    font-weight: 200;
+    line-height: 120%;
+    padding-bottom: 30px;
+}
+.main-p {
+    font-family: Montserrat;
+    color: #757575;
+    font-size: 18px;
+    line-height: 140%;
+    padding-bottom: 36px;
+}
+.main-button {
+    color: #2B788B;
+    font-family: Montserrat;
+    padding: 14px 22px 14px 22px;
+    background: #C3DCE3;
+    border-radius: 30px;
+}
+
+.main-image {
+    position: absolute;
+    top: 109px;
+    left: 910px;
+    width: 933px;
+    height: 601px;
+}
+/* stats */
+.stats {
+    height: 600px;
+    background-color: white;
+}
+.stats-content {
+    display: flex;
+    padding-top: 95px;
+}
+.stats-h1 {
+    font-family: Dela Gothic One;
+    font-size: 48px;
+    line-height: 100%;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.stats-p {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 120%;
+    color: #757575;
+    padding-bottom: 46px;
+}
+.stats-button {
+    color: #2B788B;
+    font-family: Montserrat;
+    padding: 14px 22px 14px 22px;
+    background: #C3DCE3;
+    border-radius: 30px;
+}
+/* Footer */
+footer {
+    height: 104px;
+}
+.container-footer {
+    width: 1679px;
+    margin: 0 auto;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+.footer-list {
+    display: flex;
+    position: relative;
+    right: 75px;
+}
+.footer-list-item {
+    padding-right: 30px;
+    color: #757575;
+    font-family: Montserrat;
+}
+.footer-a {
+    position: relative;
+    left: 75px;
+    color: #757575;
+    font-family: Montserrat;
+}
+/* Sign In */
+.signin {
+    padding-top: 275px;
+}
+body {
+    background: #F6F5F4;
+}
+.signin-block {
+    width: 461px;
+    height: 426px;
+    background: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.signin-h2 {
+    color: #2B788B;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 900;
+    padding-left: 40px;
+    padding-top: 38px;
+    padding-bottom: 46px;
+}
+.signin-input {
+    width: 363px;
+    height: 70px;
+    background: #C3DCE3;
+    border-radius: 50px;
+    border: 0px solid;
+    color: #2B788B;
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.signin-input-block {
+    padding-left: 35px;
+}
+.signin-button {
+    color: white;
+    background: #2B788B;
+    padding: 18px 40px 18px 40px;
+    font-size: 16px;
+    font-family: Montserrat;
+    border-radius: 50px;
+}
+.signin-button-block {
+    padding-top: 25px;
+    padding-left: 40px;
+}
